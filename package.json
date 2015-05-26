@@ -1,0 +1,19 @@
+{
+  "name": "oxford-face-api",
+  "version": "1.0.0",
+  "description": "oxford-face-api provides a interface with the Face APIs in Microsoft Project Oxford.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "face",
+    "detector",
+    "api"
+  ],
+  "dependencies": {
+  "superagent": "1.2.0"
+  },
+  "author": "bisque33 <bisque33@gmail.com>",
+  "license": "MIT"
+}
