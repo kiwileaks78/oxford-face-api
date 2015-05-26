@@ -74,7 +74,7 @@ Face.prototype.create_a_person = function(group_id, person_name, face_ids, callb
 		userData: ""
 	};
 	request
-		.post(this.API_URL + "/persongroups" + "/" + group_id + "/persons")
+		.post(this.API_URL + "/persongroups/" + group_id + "/persons")
 		.set('Content-Type', 'application/json')
 		.set('Ocp-Apim-Subscription-Key', this.API_PRIMARY_KEY)
 		.send(request_body)
@@ -89,7 +89,7 @@ Face.prototype.create_a_person = function(group_id, person_name, face_ids, callb
 
 Face.prototype.train_persongroup = function(group_id, callback){
 	request
-		.post(this.API_URL + "/persongroups" + "/" + group_id + "/training")
+		.post(this.API_URL + "/persongroups/" + group_id + "/training")
 		.set('Ocp-Apim-Subscription-Key', this.API_PRIMARY_KEY)
 		.end(function(error, response) {
 			if(!error && (response.statusCode == 200 || response.statusCode == 201)) {
