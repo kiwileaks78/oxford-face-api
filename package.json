@@ -1,6 +1,6 @@
 {
   "name": "oxford-face-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "oxford-face-api provides a interface with the Face APIs in Microsoft Project Oxford.",
   "main": "index.js",
   "scripts": {
