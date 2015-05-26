@@ -12,8 +12,9 @@
     "api"
   ],
   "dependencies": {
-    "superagent": "~1.2",
-    "mocha": "*"
+    "superagent": "1.2.0",
+    "mocha": "2.2.5",
+    "should": "6.0.3"
   },
   "author": "bisque33 <bisque33@gmail.com>",
   "license": "MIT"
