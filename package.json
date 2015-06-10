@@ -4,7 +4,7 @@
   "description": "oxford-face-api provides a interface with the Face APIs in Microsoft Project Oxford.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=test node ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,9 @@
   ],
   "dependencies": {
     "superagent": "1.2.0",
-    "mocha": "2.2.5",
-    "should": "6.0.3"
+    "mocha": "~2.2.5",
+    "should": "6.0.3",
+    "istanbul": "~0.3.15"
   },
   "author": "bisque33 <bisque33@gmail.com>",
   "license": "MIT"
